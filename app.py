@@ -6,9 +6,9 @@ def hello_world():
 	return 'Hello, World:'
 
 
-@app.route('/joseph')
-def hello_name():
-        return 'Hello, World:'
+@app.route('/futureself')
+def hello_future():
+        return 'Hello, future self:'
 
 if __name__ == '__main__':
 	app.run()
